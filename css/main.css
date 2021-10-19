@@ -463,7 +463,8 @@ body {
 .container__footer {
     margin-top: 112px;
     background: #316099;
-    padding: 91px 113px 64px 113px;
+    /* padding: 91px 113px 64px 113px; */
+    padding: 91px 10 64px 0;
 }
 
 .top_footer {
@@ -477,6 +478,7 @@ body {
     line-height: 46px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
+    margin-top: 91px;
 }
 
 .text__footer {
@@ -510,7 +512,6 @@ body {
 
 .hr {
     margin-top: 96px;
-    background: #316099;
 }
 
 .list__footer {
@@ -616,7 +617,8 @@ body {
     /* Подвал */
     .container__footer {
         margin-top: 109px;
-        padding: 47px 124px 64px 124px;
+        /* padding: 47px 124px 64px 124px; */
+        padding: 47px 0 64px 0;
     }
     .top_footer {
         display: flex;
@@ -624,6 +626,7 @@ body {
     }
     .title__footer {
         max-width: 336px;
+        margin-top: 0;
     }
     .text__footer {
         max-width: 336px;
@@ -688,6 +691,7 @@ body {
         font-size: 12px;
         margin: 0 auto;
         display: block;
+        padding: 1px;
     }
     /* Главная верх конец*/
     /* Контакт верх */
